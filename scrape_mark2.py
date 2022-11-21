@@ -8,7 +8,7 @@ searchTag = 'Bags'
 nPage = 10
 
 items = []
-searchTag = 'bags'.replace(' ', '+')
+searchTag = searchTag.replace(' ', '+')
 base_url = 'https://www.amazon.in/s?k={0}'.format(searchTag)
 
 for i in range(1, int(nPage)):
